@@ -7,6 +7,7 @@ import {AreaPage} from "@/components/area";
 import { RadarPage} from "@/components/radar";
 import {BarBasicPage} from "@/components/barbasic";
 import {ScatterPage} from "@/components/scatter";
+import {BarTwoPage} from "@/components/bartwo";
 export default function Home() {
 
     return (
@@ -33,7 +34,7 @@ export default function Home() {
                 <ScatterPage/>
             </div>
             <div className="bg-white text-white h-72 flex items-center   justify-center rounded-md ">
-                <RadarPage/>
+                <BarTwoPage/>
             </div>
         </div>
     );
